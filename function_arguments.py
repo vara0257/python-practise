@@ -18,4 +18,12 @@ def my_function(*students):
 
 my_function("1. Vara", "2. Mahesh", "3. Krishna")
 
+==========================================
+
+def my_function(**students):
+  print("His last name is " + kid["fname"])
+
+my_function(fname = "Vara", lname = "prasad")
+
+
 
