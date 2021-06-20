@@ -25,5 +25,14 @@ def my_function(**students):
 
 my_function(fname = "Vara", lname = "prasad")
 
+==========================================
+
+def my_function(students):
+    for x in students:
+        print(x)
+
+my_function(["vara", "prasad", "mahesh"])
+
+
 
 
