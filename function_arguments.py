@@ -11,3 +11,11 @@ def my_function(fname, lname):
 a, b = input("Enter firstname and lastname:").split()
 my_function(a,b)
 
+==========================================
+
+def my_function(*students):
+    print("Students names are: " + students[0], students[1])
+
+my_function("1. Vara", "2. Mahesh", "3. Krishna")
+
+
